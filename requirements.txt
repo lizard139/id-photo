@@ -1,4 +1,5 @@
 streamlit
-rembg[gpu]
+rembg
 pillow
 onnxruntime
+numpy
