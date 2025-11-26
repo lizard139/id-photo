@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+import streamlit as st
+# ... (后面接你原来的代码)
+
 import streamlit as st
 from rembg import remove, new_session
 from PIL import Image
@@ -211,3 +215,4 @@ if uploaded_file:
             except Exception as e:
                 st.error(f"发生错误: {e}")
                 st.warning("提示：如果是第一次运行，云端下载模型可能需要一点时间，请刷新页面重试。")
+
