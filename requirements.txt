@@ -1,3 +1,4 @@
 streamlit
-rembg
+rembg[gpu]
 pillow
+onnxruntime
